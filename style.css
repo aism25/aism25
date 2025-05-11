@@ -4,13 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px; /* reduced from default 16px */
   line-height: 1.6;
   color: #333;
   background: #f9f9f9;
-  padding-top: 70px; /* to avoid overlap with sticky nav */
+  padding-top: 70px;
 }
 
 nav {
@@ -64,6 +64,10 @@ header h2 {
 
 header p {
   margin: 5px 0;
+}
+
+header h1, header h2, section h2, h3 {
+  font-weight: 600;
 }
 
 main {
