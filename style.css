@@ -9,6 +9,11 @@ a {
   text-decoration: none;
 }
 
+ul ul {
+  margin-left: 20px;
+}
+
+
 section {
   scroll-margin-top: 80px; /* adjust based on your navbar height */
 }
